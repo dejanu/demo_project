@@ -1,4 +1,4 @@
-# demo_projecy
+# demo_project
 
 A simple REST API built with [FastAPI](https://fastapi.tiangolo.com/) for managing items, backed by an in-memory store.
 

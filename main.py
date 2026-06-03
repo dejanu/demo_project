@@ -42,3 +42,9 @@ def delete_item(item_id: int):
     if item_id not in db:
         raise HTTPException(status_code=404, detail="Item not found")
     del db[item_id]
+    
+    
+@app.get("/")
+async def root():
+	return{"message":"index page"}
+

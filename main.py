@@ -46,5 +46,5 @@ def delete_item(item_id: int):
     
 @app.get("/")
 async def root():
-	return{"message":"index page"}
+	return{"message":"CUSTOM MESSAGE"}
 
